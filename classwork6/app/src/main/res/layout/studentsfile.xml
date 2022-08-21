@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="24dp"
+    android:elevation="24dp">
+
+    <ImageView
+        android:id="@+id/deletebtn"
+        android:layout_width="69dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="222dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_baseline_delete_24"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/studentname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:textSize="24dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/studentage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/studentgrade"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="grade"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="210dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
